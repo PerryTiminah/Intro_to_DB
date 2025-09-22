@@ -19,12 +19,14 @@ CREATE TABLE IF NOT EXISTS Books (
 );
 
 -- 3. Create customers table
+
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(100) UNIQUE
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215),
+    address TEXT
 );
+
 
 -- 4. Create orders table
 CREATE TABLE IF NOT EXISTS Orders (
