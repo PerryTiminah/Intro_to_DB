@@ -1,8 +1,4 @@
-# config.py
 
-# Replace these values with your actual MySQL server credentials
-db_config = {
-    'host': 'localhost',      # usually localhost
-    'user': 'root',           # your MySQL username
-    'password': 'yourpassword'  # your MySQL password
-}
+DB_HOST = 'localhost'
+DB_USER = 'root'
+DB_PASSWORD = 'Makokha@198'
